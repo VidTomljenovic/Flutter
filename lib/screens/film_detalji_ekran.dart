@@ -23,7 +23,7 @@ class FilmDetaljEkran extends ConsumerWidget {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
                   content: Text(dodano
-                      ? 'Film dodan u favorite!'
+                      ? 'Movie added to favourites!'
                       : 'Film maknut iz favorita!'),
                 ),
               );
