@@ -39,10 +39,13 @@ class FilmDetaljEkran extends ConsumerWidget {
               children: [
                 Container(
                   height: 600,
-                  child: Image.network(
-                    film!.slikaUrl!,
-                    width: double.infinity,
-                    fit: BoxFit.cover,
+                  child: Hero(
+                    tag: film!.id!,
+                    child: Image.network(
+                      film!.slikaUrl!,
+                      width: double.infinity,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
                 SizedBox(height: 20),

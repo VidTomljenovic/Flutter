@@ -27,12 +27,15 @@ class FilmStavka extends StatelessWidget {
         child: Stack(
           children: [
             Center(
-              child: FadeInImage(
-                placeholder: MemoryImage(kTransparentImage),
-                image: NetworkImage(film.slikaUrl!),
-                fit: BoxFit.cover,
-                width: double.infinity,
-                height: 800,
+              child: Hero(
+                tag: film.id!,
+                child: FadeInImage(
+                  placeholder: MemoryImage(kTransparentImage),
+                  image: NetworkImage(film.slikaUrl!),
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                  height: 800,
+                ),
               ),
             ),
             Positioned(
