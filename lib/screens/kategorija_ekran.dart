@@ -61,7 +61,7 @@ class _EkranKategorijeState extends State<EkranKategorije>
             crossAxisSpacing: 22,
             mainAxisSpacing: 30),
         children: [
-          for (final kategorija in DUMMY_CATEGORIES)
+          for (final kategorija in DUMMY_KATEGORIJE)
             KategorijaStavka(
               kategorija: kategorija,
               onTapKategorije: () {

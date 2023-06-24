@@ -7,5 +7,5 @@ class Kategorija {
   final String? naslov;
   @required
   final Color? boja;
-  const Kategorija({this.id, this.naslov, this.boja = Colors.purple});
+  const Kategorija({this.id, this.naslov, this.boja});
 }

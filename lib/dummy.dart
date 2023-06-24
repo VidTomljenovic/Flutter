@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import './models/film.dart';
 import './models/kategorija.dart';
 
-const DUMMY_CATEGORIES = const [
+const DUMMY_KATEGORIJE = const [
   Kategorija(
     id: 'c1',
     naslov: 'Triler',
@@ -55,22 +55,22 @@ const DUMMY_CATEGORIES = const [
   ),
 ];
 
-const DUMMY_MOVIES = const [
+const DUMMY_FILMOVI = const [
   Film(
       id: '1',
-      kategorije: ['c1'],
-      naslov: 'Silence of the Lambs',
-      trajanje: 120,
-      redatelj: 'Quentin Tarantino',
-      godina: 1999,
-      uloge: ['Tom Cruise', 'Mads Mikelsen,', 'Andrew Tate'],
+      kategorije: ['c1', 'c3'],
+      naslov: 'Kad jaganjci utihnu',
+      trajanje: 118,
+      redatelj: 'Jonathan Demme',
+      godina: 1991,
+      uloge: ['Jodie Foster', 'Anthony Hopkins,', 'Lawrence A. Bonney'],
       tezina: Tezina.Tezak,
       jeHollyWood: true,
       jeEuropski: false,
       slikaUrl:
           'https://s3.amazonaws.com/static.rogerebert.com/uploads/blog_post/primary_image/features/timeless-horror-the-25th-anniversary-of-the-silence-of-the-lambs/silence-of-the-lambs.jpg',
       opis:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris est sem, gravida id dignissim sit amet, aliquet ultricies lacus. Donec condimentum nulla tortor, at interdum risus porttitor consectetur. Cras placerat in felis et maximus. Maecenas posuere, ex in molestie dignissim, dolor quam suscipit massa, a congue purus quam nec neque. Maecenas nulla purus, posuere ac convallis non, pharetra vitae nisi. Nunc pharetra augue eu purus sodales, ut semper velit ornare. Ut efficitur tincidunt tortor, id pulvinar nunc ultrices non. Nam maximus, eros a mollis porta, ipsum nunc ultrices risus, sit amet sagittis magna metus eget nulla. Duis tincidunt nunc metus, quis viverra enim eleifend id. Nulla facilisi.'),
+          'Mladi kadet FBI-a mora dobiti pomoć zatvorenog i manipulativnog ubojice kanibala kako bi uhvatio još jednog serijskog ubojicu, luđaka koji dere kožu svojim žrtvama.'),
   Film(
       id: '2',
       kategorije: ['c2'],

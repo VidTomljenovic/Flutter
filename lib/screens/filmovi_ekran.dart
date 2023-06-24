@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/film.dart';
-import '../widgets/newfile.dart';
+import '../widgets/film_stavka.dart';
 import './film_detalji_ekran.dart';
 
 class FilmoviEkran extends StatelessWidget {

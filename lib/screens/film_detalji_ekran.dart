@@ -67,12 +67,19 @@ class FilmDetaljEkran extends ConsumerWidget {
                       ],
                     ),
                     Column(
-                      children: [Text('proba')],
-                    )
+                      children: [
+                        Text(
+                          'Opis: ',
+                          style: TextStyle(
+                              fontSize: 25, fontWeight: FontWeight.bold),
+                        ),
+                        Text(
+                          film!.opis!,
+                          softWrap: true,
+                        ),
+                      ],
+                    ),
                   ],
-                ),
-                SizedBox(
-                  height: 10,
                 ),
               ],
             ),

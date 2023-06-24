@@ -17,8 +17,11 @@ class Film {
   final int? godina;
   @required
   final List<String>? uloge;
+  @required
   final Tezina? tezina;
+  @required
   final bool? jeHollyWood;
+  @required
   final bool? jeEuropski;
   @required
   final String? slikaUrl;
