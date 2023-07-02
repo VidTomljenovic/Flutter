@@ -36,15 +36,22 @@ class FilmoviEkran extends StatelessWidget {
       );
     }
     if (filmovi.isNotEmpty) {
-      sadrzaj = ListView.builder(
+      sadrzaj = GridView.builder(
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2, // Adjust the number of columns as needed
+          crossAxisSpacing: 10.0, // Adjust the spacing between columns
+          mainAxisSpacing: 10.0, // Adjust the spacing between rows
+        ),
         itemCount: filmovi.length,
         itemBuilder: (ctx, index) => FilmStavka(
-            film: filmovi[index],
-            onOdabirFilm: (film) {
-              odabirFilma(context, film);
-            }),
+          film: filmovi[index],
+          onOdabirFilm: (film) {
+            odabirFilma(context, film);
+          },
+        ),
       );
     }
+
     if (naslov == null) {
       return sadrzaj!;
     } else {
