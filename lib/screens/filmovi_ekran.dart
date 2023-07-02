@@ -25,9 +25,12 @@ class FilmoviEkran extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text('Ovdje nema ničega!'),
+            Text(
+              'Ovdje nema ničega!',
+              style: TextStyle(fontSize: 26),
+            ),
             SizedBox(height: 15),
-            Text('Pokušajte izabrati nešto :)'),
+            Text('Pokušajte izabrati nešto :)', style: TextStyle(fontSize: 18)),
           ],
         ),
       );

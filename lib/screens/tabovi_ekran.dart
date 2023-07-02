@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'kategorija_ekran.dart';
 import 'filmovi_ekran.dart';
 import '../models/film.dart';
-import '../widgets/main_ladica.dart';
+import '../widgets/ladica.dart';
 import '../screens/filteri_ekran.dart';
 import '../dummy.dart';
 import 'package:flutter_complete_guide/providers/filmovi_provider.dart';

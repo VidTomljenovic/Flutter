@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_complete_guide/screens/tabovi_ekran.dart';
-import '../widgets/main_ladica.dart';
+import '../widgets/ladica.dart';
 import '../providers/filteri_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
