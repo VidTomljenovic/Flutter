@@ -4,12 +4,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../providers/favoriti_provider.dart';
 
 class FilmDetaljEkran extends ConsumerWidget {
-  const FilmDetaljEkran({super.key, this.film});
+  const FilmDetaljEkran({Key? key, required this.film}) : super(key: key);
   final Film? film;
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final favoritiFilmovi = ref.watch(favoritiProvider);
     final jeFavorit = favoritiFilmovi.contains(film);
+
     return Scaffold(
       appBar: AppBar(
         title: Text(film!.naslov!),
@@ -35,51 +37,78 @@ class FilmDetaljEkran extends ConsumerWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Column(
+            Container(
+              height: 600,
+              child: Hero(
+                tag: film!.id!,
+                child: Image.network(
+                  film!.slikaUrl!,
+                  width: double.infinity,
+                  fit: BoxFit.cover,
+                ),
+              ),
+            ),
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
-                  height: 600,
-                  child: Hero(
-                    tag: film!.id!,
-                    child: Image.network(
-                      film!.slikaUrl!,
-                      width: double.infinity,
-                      fit: BoxFit.cover,
-                    ),
+                Flexible(
+                  flex: 1,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          'Uloge',
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 8),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          for (final uloge in film!.uloge!)
+                            Text(
+                              uloge,
+                              style: TextStyle(fontSize: 22),
+                            ),
+                        ],
+                      ),
+                    ],
                   ),
                 ),
-                SizedBox(height: 20),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    Column(
-                      children: [
-                        Text(
-                          'Uloge: ',
+                SizedBox(width: 20),
+                Flexible(
+                  flex: 1,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          'Opis',
                           style: TextStyle(
-                              fontSize: 25, fontWeight: FontWeight.bold),
+                            fontSize: 26,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                        for (final uloge in film!.uloge!)
-                          Text(
-                            uloge,
-                            style: TextStyle(fontSize: 22),
-                          )
-                      ],
-                    ),
-                    Column(
-                      children: [
-                        Text(
-                          'Opis: ',
-                          style: TextStyle(
-                              fontSize: 25, fontWeight: FontWeight.bold),
-                        ),
-                        Text(
+                      ),
+                      SizedBox(height: 8),
+                      Container(
+                        alignment: Alignment.center,
+                        child: Text(
                           film!.opis!,
                           softWrap: true,
+                          style: TextStyle(
+                              fontSize: 21, fontStyle: FontStyle.italic),
                         ),
-                      ],
-                    ),
-                  ],
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),

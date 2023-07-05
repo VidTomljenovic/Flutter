@@ -328,4 +328,127 @@ const DUMMY_FILMOVI = const [
           'https://www.themoviedb.org/t/p/original/lP7FWXPiruhp3ohKwqxr0QUPcyX.jpg',
       opis:
           'Čovjek u legalnom, ali štetnom poslu treba pratnju za neka društvena događanja i unajmi lijepu prostitutku koju upozna... samo da bi se zaljubio.'),
+  Film(
+      id: '16',
+      kategorije: ['c1', 'c6', 'c10'],
+      naslov: 'Psiho',
+      trajanje: 109,
+      redatelj: 'Alfred Hitchcock',
+      godina: 1960,
+      uloge: ['Anthony Perkins', 'Janet Leigh,', 'Vera Miles'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/vThE1UgrYq6wdWkPR3acU72iJRx.jpg',
+      opis:
+          'Tajnica iz Phoenixa pronevjeri 40.000 dolara od klijenta svog poslodavca, pobjegne i prijavi se u udaljeni motel koji vodi mladić pod dominacijom svoje majke.'),
+  Film(
+      id: '17',
+      kategorije: ['c3', 'c8', 'c10'],
+      naslov: 'Svjetionik',
+      trajanje: 109,
+      redatelj: 'Robert Eggers',
+      godina: 2019,
+      uloge: ['Robert Pattinson', 'Willem Dafoe', 'Valeriia Karaman'],
+      tezina: Tezina.Tezak,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/i51wnN9phojyn14xHjQt6rv1r0x.jpg',
+      opis:
+          'Tajnica iz Phoenixa pronevjeri 40.000 dolara od klijenta svog poslodavca, pobjegne i prijavi se u udaljeni motel koji vodi mladić pod dominacijom svoje majke.'),
+  Film(
+      id: '18',
+      kategorije: ['c3', 'c8', 'c10'],
+      naslov: 'Vještica',
+      trajanje: 92,
+      redatelj: 'Robert Eggers',
+      godina: 2015,
+      uloge: ['Anya Taylor-Joy', 'Ralph Ineson', 'Kate Dickie'],
+      tezina: Tezina.Tezak,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/dEY6lCgiODGMDPY3Oo2j09ngPiq.jpg',
+      opis:
+          'Obitelj u Novoj Engleskoj 1630-ih razdiraju sile vještičarenja, crne magije i opsjednutosti.'),
+  Film(
+      id: '19',
+      kategorije: [
+        'c2',
+        'c9',
+      ],
+      naslov: 'Dina',
+      trajanje: 152,
+      redatelj: 'Denis Veilleneuve',
+      godina: 2021,
+      uloge: ['Timothée Chalamet', 'Rebecca Ferguson', 'Zendaya'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/jYEW5xZkZk2WTrdbMGAPFuBqbDc.jpg',
+      opis:
+          'Obitelj u Novoj Engleskoj 1630-ih razdiraju sile vještičarenja, crne magije i opsjednutosti.'),
+  Film(
+      id: '20',
+      kategorije: ['c2', 'c5', 'c9'],
+      naslov: 'Sve u isto vrijeme',
+      trajanje: 149,
+      redatelj: 'Daniel Kwan',
+      godina: 2022,
+      uloge: ['Michelle Yeoh', 'Stephanie Hsu', 'Jamie Lee Curtis'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/ss0Os3uWJfQAENILHZUdX8Tt1OC.jpg',
+      opis:
+          'Sredovječna kineska imigrantkinja uvučena je u ludu avanturu u kojoj samo ona može spasiti postojanje istražujući druge svemire i povezujući se sa životima koje je mogla voditi.'),
+  Film(
+      id: '21',
+      kategorije: ['c2', 'c8', 'c9'],
+      naslov: 'Gospodar prstenova: Prstenova družina',
+      trajanje: 178,
+      redatelj: 'Peter Jackson',
+      godina: 2001,
+      uloge: ['Elijah Wood', 'Ian McKellen', 'Viggo Mortense'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/tqj7NKj11keFuLzPsBDMUq2dOUO.jpg',
+      opis:
+          'Krotki Hobit iz Shirea i osam drugova kreću na putovanje kako bi uništili moćni Prsten Jednog i spasili Međuzemlje od Mračnog Gospodara Saurona.'),
+  Film(
+      id: '22',
+      kategorije: ['c2', 'c8', 'c9'],
+      naslov: 'Gospodar prstenova: Dvije kule',
+      trajanje: 179,
+      redatelj: 'Peter Jackson',
+      godina: 2002,
+      uloge: ['Elijah Wood', 'Ian McKellen', 'Viggo Mortense'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/kWYfW2Re0rUDE6IHhy4CRuKWeFr.jpg',
+      opis:
+          'Dok se Frodo i Sam približavaju Mordoru uz pomoć prevrtljivog Goluma, podijeljeno društvo se suprotstavlja Sauronovom novom savezniku, Sarumanu, i njegovim hordama Isengarda.'),
+  Film(
+      id: '23',
+      kategorije: ['c2', 'c8', 'c9'],
+      naslov: 'Gospodar prstenova: Povratak kralja',
+      trajanje: 201,
+      redatelj: 'Peter Jackson',
+      godina: 2003,
+      uloge: ['Elijah Wood', 'Ian McKellen', 'Viggo Mortense'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg',
+      opis:
+          'Gandalf i Aragorn vode Svijet ljudi protiv Sauronove vojske kako bi odvratili njegov pogled od Froda i Sama dok se približavaju planini Prokletstva s Jedinstvenim prstenom.'),
 ];
