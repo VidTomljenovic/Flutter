@@ -228,7 +228,7 @@ const DUMMY_FILMOVI = const [
           'Kad se Louis Bloom, prevarant koji očajnički traži posao, ugura u svijet kriminalističkog novinarstva u Los Anđelesu, briše granicu između promatrača i sudionika kako bi postao zvijezda vlastite priče.'),
   Film(
       id: '10',
-      kategorije: ['c3', 'c6'],
+      kategorije: ['c2', 'c3', 'c6'],
       naslov: 'Američki psiho',
       trajanje: 102,
       redatelj: 'Mary Harron',
