@@ -1,0 +1,28 @@
+^C:\USERS\TOMLJ\FLUTTER_PROJEKTI\MOVIES_APP\BUILD\WINDOWS\CMAKEFILES\7847111721B78533D38976B31C80CF94\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\Users\tomlj\Flutter_Projekti\movies_app FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\tomlj\Flutter_Projekti\movies_app\windows\flutter\ephemeral PROJECT_DIR=C:\Users\tomlj\Flutter_Projekti\movies_app FLUTTER_TARGET=C:\Users\tomlj\Flutter_Projekti\movies_app\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\tomlj\Flutter_Projekti\movies_app\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TOMLJ\FLUTTER_PROJEKTI\MOVIES_APP\BUILD\WINDOWS\CMAKEFILES\09BB46412C69494E9ABE4AE8B0D84FAB\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\TOMLJ\FLUTTER_PROJEKTI\MOVIES_APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/tomlj/Flutter_Projekti/movies_app/windows -BC:/Users/tomlj/Flutter_Projekti/movies_app/build/windows --check-stamp-file C:/Users/tomlj/Flutter_Projekti/movies_app/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
