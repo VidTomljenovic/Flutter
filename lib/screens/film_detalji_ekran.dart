@@ -52,19 +52,36 @@ class FilmDetaljEkran extends ConsumerWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Flexible(
-                  flex: 1,
+                Expanded(
                   child: Column(
+                    mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text(
-                          'Uloge',
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
+                      Text(
+                        'Redatelj',
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        film!.redatelj!,
+                        style: TextStyle(fontSize: 22),
+                      ),
+                    ],
+                  ),
+                ),
+                Expanded(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Uloge',
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       SizedBox(height: 8),
@@ -81,30 +98,25 @@ class FilmDetaljEkran extends ConsumerWidget {
                     ],
                   ),
                 ),
-                SizedBox(width: 20),
-                Flexible(
-                  flex: 1,
+                Expanded(
                   child: Column(
+                    mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text(
-                          'Opis',
-                          style: TextStyle(
-                            fontSize: 26,
-                            fontWeight: FontWeight.bold,
-                          ),
+                      Text(
+                        'Opis',
+                        style: TextStyle(
+                          fontSize: 26,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                       SizedBox(height: 8),
-                      Container(
-                        alignment: Alignment.center,
-                        child: Text(
-                          film!.opis!,
-                          softWrap: true,
-                          style: TextStyle(
-                              fontSize: 21, fontStyle: FontStyle.italic),
+                      Text(
+                        film!.opis!,
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          fontSize: 21,
+                          fontStyle: FontStyle.italic,
                         ),
                       ),
                     ],
