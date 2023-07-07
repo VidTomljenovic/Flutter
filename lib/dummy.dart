@@ -451,4 +451,64 @@ const DUMMY_FILMOVI = const [
           'https://www.themoviedb.org/t/p/original/2u7zbn8EudG6kLlBzUYqP8RyFU4.jpg',
       opis:
           'Gandalf i Aragorn vode Svijet ljudi protiv Sauronove vojske kako bi odvratili njegov pogled od Froda i Sama dok se približavaju planini Prokletstva s Jedinstvenim prstenom.'),
+  Film(
+      id: '24',
+      kategorije: ['c4', 'c5'],
+      naslov: 'Amelie',
+      trajanje: 124,
+      redatelj: 'Jean-Pierre Jeunet',
+      godina: 2001,
+      uloge: ['Audrey Tautou', 'Mathieu Kassovitz', 'Rufus'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/9TEUJy5aRP7LaM1LKTfcxVK34JK.jpg',
+      opis:
+          'Unatoč tome što je uhvaćena u svom maštovitom svijetu, Amelie, mlada konobarica, odlučuje pomoći ljudima da pronađu sreću. Njezina potraga za širenjem radosti vodi je na putovanje na kojem pronalazi pravu ljubav.'),
+  Film(
+      id: '25',
+      kategorije: ['c3', 'c4', 'c5'],
+      naslov: 'Život je lijep',
+      trajanje: 116,
+      redatelj: 'Roberto Benigni',
+      godina: 1997,
+      uloge: ['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini'],
+      tezina: Tezina.Lak,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/6aNKD81RHR1DqUUa8kOZ1TBY1Lp.jpg',
+      opis:
+          'Kada otvoreni židovski konobar i njegov sin postanu žrtve holokausta, on koristi savršenu mješavinu volje, humora i mašte kako bi zaštitio svog sina od opasnosti oko njihovog logora.'),
+  Film(
+      id: '26',
+      kategorije: ['c3', 'c4'],
+      naslov: 'Nedodirljivi',
+      trajanje: 112,
+      redatelj: 'Olivier Nakache',
+      godina: 2011,
+      uloge: ['François Cluzet', 'Omar Sy', 'Anne Le Ny'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/cK070s3Qdn1Ib7Gq8RgIyJKgvu3.jpg',
+      opis:
+          'Nakon što postane kvadriplegičar zbog nesreće na paraglidingu, aristokrat angažira mladića s projekta da mu bude njegovatelj.'),
+  Film(
+      id: '27',
+      kategorije: ['c5', 'c6'],
+      naslov: 'Noć glupih mrtvaca',
+      trajanje: 99,
+      redatelj: 'Edgar Wright',
+      godina: 2004,
+      uloge: ['Simon Pegg', 'Nick Frost', 'Kate Ashfield'],
+      tezina: Tezina.Lak,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/mrdHbaCp3ysDrzUHle5eQlY9Vzu.jpg',
+      opis:
+          'Jednostavne, besciljne živote londonskog prodavača elektronike i njegovog cimera skitnice poremeti zombi apokalipsa.'),
 ];
