@@ -67,18 +67,18 @@ class FilmStavka extends StatelessWidget {
                           ikona: Icons.schedule,
                           label: '${film.trajanje} min',
                         ),
-                        SizedBox(width: 20),
+                        //SizedBox(width: 20),
                         FilmStavkaMeta(
                           ikona: Icons.calendar_month_outlined,
                           label: '${film.godina} god',
                         ),
-                        SizedBox(width: 20),
+                        //SizedBox(width: 20),
                         FilmStavkaMeta(
                           ikona: Icons.warning,
                           label: tezinaTekst,
                         )
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),

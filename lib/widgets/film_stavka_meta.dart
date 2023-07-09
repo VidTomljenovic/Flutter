@@ -10,13 +10,13 @@ class FilmStavkaMeta extends StatelessWidget {
       children: [
         Icon(
           ikona,
-          size: 36,
+          size: 25,
           color: Colors.white,
         ),
-        SizedBox(width: 8),
+        SizedBox(width: 6),
         Text(
           label!,
-          style: TextStyle(color: Colors.white, fontSize: 24),
+          style: TextStyle(color: Colors.white, fontSize: 18),
         )
       ],
     );

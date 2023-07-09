@@ -38,9 +38,9 @@ class FilmoviEkran extends StatelessWidget {
     if (filmovi.isNotEmpty) {
       sadrzaj = GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          crossAxisSpacing: 10.0,
-          mainAxisSpacing: 10.0,
+          crossAxisCount: 3,
+          crossAxisSpacing: 4.0,
+          mainAxisSpacing: 6.0,
         ),
         itemCount: filmovi.length,
         itemBuilder: (ctx, index) => FilmStavka(

@@ -511,4 +511,124 @@ const DUMMY_FILMOVI = const [
           'https://www.themoviedb.org/t/p/original/mrdHbaCp3ysDrzUHle5eQlY9Vzu.jpg',
       opis:
           'Jednostavne, besciljne živote londonskog prodavača elektronike i njegovog cimera skitnice poremeti zombi apokalipsa.'),
+  Film(
+      id: '28',
+      kategorije: ['c2', 'c9'],
+      naslov: 'Kon-Tiki',
+      trajanje: 118,
+      redatelj: 'Joachim Rønning',
+      godina: 2012,
+      uloge: ['Pål Sverre Hagen', 'Anders Baasmo' 'Gustaf Skarsgård'],
+      tezina: Tezina.Lak,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/4sIXSFviwmJ9lWfRmhQGUdefBtL.jpg',
+      opis:
+          'Legendarni istraživač Thor Heyerdahl prešao je Pacifik dug 4300 milja na splavi od balzavog drveta 1947., u nastojanju da dokaže da je bilo moguće da se Južnoamerikanci nasele u Polineziji u pretkolumbovsko doba.'),
+  Film(
+      id: '29',
+      kategorije: ['c2', 'c7'],
+      naslov: 'Matrix',
+      trajanje: 136,
+      redatelj: 'Lana Wachowski',
+      godina: 1999,
+      uloge: ['Keanu Reeves', 'Laurence Fishburne', 'Carrie-Anne Moss'],
+      tezina: Tezina.Tezak,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/fNG7i7RqMErkcqhohV2a6cV1Ehy.jpg',
+      opis:
+          'Kad lijepa neznanka odvede računalnog hakera Nea u zastrašujuće podzemlje, on otkriva šokantnu istinu - život koji poznaje razrađena je prijevara zle cyber-inteligencije.'),
+  Film(
+      id: '30',
+      kategorije: ['c5', 'c7', 'c9'],
+      naslov: 'Povratak u budućnost',
+      trajanje: 116,
+      redatelj: 'Robert Zemeckis',
+      godina: 1985,
+      uloge: ['Michael J. Fox', 'Christopher Lloyd' 'Lea Thompson'],
+      tezina: Tezina.Lak,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/3lbTiIN8cVonMUQwaeh5nvn61lr.jpg',
+      opis:
+          'Marty McFly, 17-godišnji srednjoškolac, slučajno je poslan 30 godina u prošlost u DeLoreanu koji putuje kroz vrijeme, a izumio ga je njegov bliski prijatelj, znanstvenik Doc Brown.'),
+  Film(
+      id: '31',
+      kategorije: ['c6'],
+      naslov: 'Ono',
+      trajanje: 135,
+      redatelj: 'Andy Muschietti',
+      godina: 2017,
+      uloge: ['Bill Skarsgård', 'Jaeden Martell', 'Finn Wolfhard'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/cHbSjL1KQLBzEOVwRJ07V693MuA.jpg',
+      opis:
+          'U ljeto 1989. skupina zlostavljane djece udružuje se kako bi uništila čudovište koje mijenja oblik, koje se maskira u klauna i lovi djecu Derryja, njihovog malog grada u Maineu.'),
+  Film(
+      id: '32',
+      kategorije: ['c6', 'c7', 'c10'],
+      naslov: 'Stvor',
+      trajanje: 109,
+      redatelj: 'John Carpenter',
+      godina: 1982,
+      uloge: ['Kurt Russell', 'Wilford Brimley', 'Keith David'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/6XzBqtnupPmDLMMkh6CKarfb3YB.jpg',
+      opis:
+          'Istraživački tim na Antarktici lovi vanzemaljac koji mijenja oblik i preuzima izgled svojih žrtava.'),
+  Film(
+      id: '33',
+      kategorije: ['c1', 'c2', 'c10'],
+      naslov: 'Telefonska govornica',
+      trajanje: 81,
+      redatelj: 'Joel Schumacher',
+      godina: 2002,
+      uloge: ['Colin Farrell', 'Kiefer Sutherland' 'Forest Whitaker'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/44cEDmV6ppfeA5z4zetyVfO3TFq.jpg',
+      opis:
+          'Publicist Stuart Shepard nađe se zarobljen u telefonskoj govornici, priklješten iznuđivačkom snajperskom puškom. Nesposoban otići ili primiti vanjsku pomoć, Stuartovo pregovaranje s pozivateljem dovodi do vrhunca koji pada u oči.'),
+  Film(
+      id: '34',
+      kategorije: ['c8', 'c9'],
+      naslov: 'Harry Potter IV: Plameni pehar',
+      trajanje: 157,
+      redatelj: 'Mike Newell',
+      godina: 2002,
+      uloge: ['Daniel Radcliffe', 'Emma Watson', 'Rupert Grint'],
+      tezina: Tezina.Lak,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/8f9dnOtpArDrOMEylpSN9Sc6fuz.jpg',
+      opis:
+          'Harry Potter se natječe u opasnom turniru između suparničkih škola magije, ali mu pažnju odvlače noćne more koje se stalno ponavljaju.'),
+  Film(
+      id: '34',
+      kategorije: ['c2', 'c8', 'c9'],
+      naslov: 'Pirati s kariba: Mrtvačeva škrinja',
+      trajanje: 151,
+      redatelj: 'Gore Verbinski',
+      godina: 2002,
+      uloge: ['Johnny Depp', 'Orlando Bloom', 'Keira Knightley'],
+      tezina: Tezina.Lak,
+      jeHollyWood: true,
+      jeEuropski: false,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/14F9FtM2DOPex5zrZkauJwWobtl.jpg',
+      opis:
+          'Jack Sparrow žuri da povrati srce Davyja Jonesa kako bi izbjegao porobljavanje njegove duše Jonesovoj službi, dok drugi prijatelji i neprijatelji također traže srce za svoje ciljeve.'),
 ];
