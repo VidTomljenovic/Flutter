@@ -628,7 +628,52 @@ const DUMMY_FILMOVI = const [
       jeHollyWood: true,
       jeEuropski: false,
       slikaUrl:
-          'https://www.themoviedb.org/t/p/original/14F9FtM2DOPex5zrZkauJwWobtl.jpg',
+          'https://www.themoviedb.org/t/p/original/vr6n6ZFUZvedvIlhfYcbCWcaKyW.jpg',
       opis:
           'Jack Sparrow žuri da povrati srce Davyja Jonesa kako bi izbjegao porobljavanje njegove duše Jonesovoj službi, dok drugi prijatelji i neprijatelji također traže srce za svoje ciljeve.'),
+  Film(
+      id: '35',
+      kategorije: ['c3', 'c6', 'c8'],
+      naslov: 'Neka uđe onaj pravi',
+      trajanje: 114,
+      redatelj: 'Tomas Alfredson',
+      godina: 2008,
+      uloge: ['Kåre Hedebrant', 'Lina Leandersson', 'Per Ragnar'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/AdR5kqBpmB4lPpRLcBFKAhBKeqD.jpg',
+      opis:
+          'Oskar, zanemaren i maltretiran dječak, pronalazi ljubav i osvetu preko Eli, lijepe, ali osebujne djevojke.'),
+  Film(
+      id: '36',
+      kategorije: ['c6', 'c8', 'c9'],
+      naslov: 'Monty Python i Sveti gral',
+      trajanje: 91,
+      redatelj: 'Tomas Alfredson',
+      godina: 2008,
+      uloge: ['Graham Chapman', 'John Cleese', 'Eric Idle'],
+      tezina: Tezina.Lak,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/1KgXxv6tHXOnakqYvMPvFwYKWiw.jpg',
+      opis:
+          'Kralj Artur i njegovi vitezovi Okruglog stola kreću u nadrealnu, niskobudžetnu potragu za Svetim gralom, nailazeći na mnoge, vrlo glupe prepreke.'),
+  Film(
+      id: '37',
+      kategorije: ['c1', 'c3'],
+      naslov: 'Europa',
+      trajanje: 112,
+      redatelj: 'Lars von Trier',
+      godina: 1991,
+      uloge: ['Barbara Sukowa', 'Jean-Marc Barr', 'Udo Kier'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/9vOfO3CP8mqqq0oqCNl9R7M07xE.jpg',
+      opis:
+          'Odmah nakon Drugog svjetskog rata, Amerikanac se zaposlio u željeznici u Njemačkoj, ali smatra da je njegova pozicija politički osjetljiva jer ga razni ljudi pokušavaju iskoristiti.'),
 ];

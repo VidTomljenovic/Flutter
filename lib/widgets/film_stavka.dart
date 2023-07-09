@@ -60,23 +60,27 @@ class FilmStavka extends StatelessWidget {
                           color: Colors.white),
                     ),
                     SizedBox(height: 10),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    Wrap(
                       children: [
-                        FilmStavkaMeta(
-                          ikona: Icons.schedule,
-                          label: '${film.trajanje} min',
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            FilmStavkaMeta(
+                              ikona: Icons.schedule,
+                              label: '${film.trajanje} min',
+                            ),
+                            SizedBox(width: 10),
+                            FilmStavkaMeta(
+                              ikona: Icons.calendar_month_outlined,
+                              label: '${film.godina} god',
+                            ),
+                            SizedBox(width: 10),
+                            FilmStavkaMeta(
+                              ikona: Icons.warning,
+                              label: tezinaTekst,
+                            )
+                          ],
                         ),
-                        //SizedBox(width: 20),
-                        FilmStavkaMeta(
-                          ikona: Icons.calendar_month_outlined,
-                          label: '${film.godina} god',
-                        ),
-                        //SizedBox(width: 20),
-                        FilmStavkaMeta(
-                          ikona: Icons.warning,
-                          label: tezinaTekst,
-                        )
                       ],
                     ),
                   ],
