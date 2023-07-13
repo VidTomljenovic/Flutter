@@ -1,0 +1,10 @@
+^C:\USERS\TOMLJ\FLUTTER_PROJEKTI\READING_HABBIT_APP\BUILD\WINDOWS\CMAKEFILES\2531167690B8D96A5E1ECF3BC06E3894\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
