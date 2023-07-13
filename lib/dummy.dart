@@ -73,7 +73,7 @@ const DUMMY_FILMOVI = const [
           'Mladi kadet FBI-a mora dobiti pomoć zatvorenog i manipulativnog ubojice kanibala kako bi uhvatio još jednog serijskog ubojicu, luđaka koji dere kožu svojim žrtvama.'),
   Film(
       id: '2',
-      kategorije: ['c1', 'c10'],
+      kategorije: ['c1', 'c2', 'c10'],
       naslov: 'Otok Shutter',
       trajanje: 138,
       redatelj: 'Martin Scorsese',
@@ -617,7 +617,7 @@ const DUMMY_FILMOVI = const [
       opis:
           'Harry Potter se natječe u opasnom turniru između suparničkih škola magije, ali mu pažnju odvlače noćne more koje se stalno ponavljaju.'),
   Film(
-      id: '34',
+      id: '35',
       kategorije: ['c2', 'c8', 'c9'],
       naslov: 'Pirati s kariba: Mrtvačeva škrinja',
       trajanje: 151,
@@ -632,7 +632,7 @@ const DUMMY_FILMOVI = const [
       opis:
           'Jack Sparrow žuri da povrati srce Davyja Jonesa kako bi izbjegao porobljavanje njegove duše Jonesovoj službi, dok drugi prijatelji i neprijatelji također traže srce za svoje ciljeve.'),
   Film(
-      id: '35',
+      id: '36',
       kategorije: ['c3', 'c6', 'c8'],
       naslov: 'Neka uđe onaj pravi',
       trajanje: 114,
@@ -647,8 +647,8 @@ const DUMMY_FILMOVI = const [
       opis:
           'Oskar, zanemaren i maltretiran dječak, pronalazi ljubav i osvetu preko Eli, lijepe, ali osebujne djevojke.'),
   Film(
-      id: '36',
-      kategorije: ['c6', 'c8', 'c9'],
+      id: '37',
+      kategorije: ['c5', 'c8', 'c9'],
       naslov: 'Monty Python i Sveti gral',
       trajanje: 91,
       redatelj: 'Tomas Alfredson',
@@ -662,7 +662,7 @@ const DUMMY_FILMOVI = const [
       opis:
           'Kralj Artur i njegovi vitezovi Okruglog stola kreću u nadrealnu, niskobudžetnu potragu za Svetim gralom, nailazeći na mnoge, vrlo glupe prepreke.'),
   Film(
-      id: '37',
+      id: '38',
       kategorije: ['c1', 'c3'],
       naslov: 'Europa',
       trajanje: 112,
@@ -676,4 +676,34 @@ const DUMMY_FILMOVI = const [
           'https://www.themoviedb.org/t/p/original/9vOfO3CP8mqqq0oqCNl9R7M07xE.jpg',
       opis:
           'Odmah nakon Drugog svjetskog rata, Amerikanac se zaposlio u željeznici u Njemačkoj, ali smatra da je njegova pozicija politički osjetljiva jer ga razni ljudi pokušavaju iskoristiti.'),
+  Film(
+      id: '39',
+      kategorije: ['c6', 'c7'],
+      naslov: 'Alien: Osmi putnik',
+      trajanje: 117,
+      redatelj: 'Ridleya Scotta',
+      godina: 1979,
+      uloge: ['Sigourney Weaver', 'Tom Skerritt', 'John Hurt'],
+      tezina: Tezina.Osrednji,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg',
+      opis:
+          'Posada komercijalne svemirske letjelice nailazi na smrtonosni oblik života nakon istraživanja nepoznatog prijenosa.'),
+  Film(
+      id: '40',
+      kategorije: ['c2'],
+      naslov: 'Brzi i žestoki 3: Tokio drif',
+      trajanje: 104,
+      redatelj: 'Justin Lin',
+      godina: 2001,
+      uloge: ['Lucas Black', 'Zachery Ty Bryan', 'Shad Moss'],
+      tezina: Tezina.Lak,
+      jeHollyWood: false,
+      jeEuropski: true,
+      slikaUrl:
+          'https://www.themoviedb.org/t/p/original/dMARcKLrv0T7kVJ4iQR3vqTTdtT.jpg',
+      opis:
+          'Tinejdžer postaje glavni natjecatelj u svijetu drift utrka nakon što se preseli k ocu u Tokio kako bi izbjegao zatvorsku kaznu u Americi.'),
 ];
